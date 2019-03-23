@@ -6,16 +6,15 @@ package 数据结构拔高;
  *
  * Author：Zheng
  */
-public class SinglyLinkedList {
+public  class SinglyLinkedList {
 
     private Node head = null;
 
-    public Node findByValue(int value) {
+    public  Node findByValue(int value) {
         Node p = head;
         while (p != null && p.data != value) {
             p = p.next;
         }
-
         return p;
     }
 
@@ -26,7 +25,6 @@ public class SinglyLinkedList {
             p = p.next;
             ++pos;
         }
-
         return p;
     }
 
@@ -143,18 +141,17 @@ public class SinglyLinkedList {
 
         // 可重复删除指定value的代码
         /*
-           if (head != null && head.data == value) {
-           head = head.next;
-           }
-
-           Node pNode = head;
-           while (pNode != null) {
-           if (pNode.next.data == data) {
-           pNode.next = pNode.next.next;
-           continue;
-           }
-           pNode = pNode.next;
-           }
+            if (head != null && head.data == value) {
+            head = head.next;
+            }
+            Node pNode = head;
+            while (pNode != null) {
+            if (pNode.next.data == data) {
+            pNode.next = pNode.next.next;
+            continue;
+            }
+            pNode = pNode.next;
+            }
          */
     }
 
@@ -255,11 +252,9 @@ public class SinglyLinkedList {
 
             Cur = next;
         }
-
         //　返回左半部分的中点之前的那个节点
         //　从此处开始同步像两边比较
         return Head;
-
     }
 
     //无头结点的链表翻转

@@ -45,7 +45,4 @@ public class CircularQueue {
         head = (head+1)%n;
         return ret;
     }
-
-
-
 }

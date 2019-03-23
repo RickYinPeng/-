@@ -10,7 +10,7 @@ public class 非法向前引用 {
     static {
         i = 0;
         /**
-         * 报错  
+         * 报错
          */
         //System.out.println(i);
     }
