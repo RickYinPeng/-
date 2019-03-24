@@ -19,5 +19,4 @@ public class Math {
         int c = (a+b)*10;
         return c;
     }
-
 }

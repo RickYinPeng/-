@@ -53,7 +53,7 @@ public class 冒泡排序 {
 
         for(int i = 0;i<n;i++){
             boolean flag = false;
-            for(int j = i+1;j<n-1-i;j++){
+            for(int j = 1;j<n-1-i;j++){
                 if(a[j-1]>a[j]){
                     flag = true;
                     int temp = a[j-1];
