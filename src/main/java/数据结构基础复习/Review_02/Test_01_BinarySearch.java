@@ -6,7 +6,7 @@ package 数据结构基础复习.Review_02;
  * @Description
  * @date 2019/2/14/8:51
  */
-public class Test_01_BinarySearch {
+class Test_01_BinarySearch {
     public static void main(String[] args) {
         //目标数组
         int[] arr = new int[]{1,2,3,4,5,6,7,8,9};

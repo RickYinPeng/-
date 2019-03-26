@@ -1,5 +1,7 @@
 package 数据结构拔高;
 
+import java.util.Stack;
+
 /**
  * 1）单链表的插入、删除、查找操作；
  * 2）链表中存储的是int类型的数据；
@@ -226,7 +228,6 @@ public  class SinglyLinkedList {
                 leftLink = inverseLinkList(p);
             }
             return TFResult(leftLink, rightLink);
-
         }
     }
 
@@ -271,7 +272,6 @@ public  class SinglyLinkedList {
             pre = r;
             r = next;
         }
-
         r.next = pre;
         //　返回左半部分的中点之前的那个节点
         //　从此处开始同步像两边比较
@@ -297,6 +297,8 @@ public  class SinglyLinkedList {
         }
     }
     public static void main(String[]args){
+
+        Stack stack = new Stack();
 
         SinglyLinkedList link = new SinglyLinkedList();
         System.out.println("hello");

@@ -10,8 +10,9 @@ public class Test_03_查找第一个大于等于给定值的元素 {
     public static void main(String[] args) {
         int[] arr = new int[]{3,4,6,7,10};
         int index = bsearch(arr, arr.length, 5);
-        System.out.println(index);
+        System.out.println("index:"+index);
     }
+
     public static int bsearch(int[] a,int n,int value){
         int low = 0;
         int high = n-1;

@@ -23,7 +23,6 @@ public class CircularQueue {
         items = new String[capacity];
         n = capacity;
     }
-
     //入队
     public boolean enqueue(String item){
         //队列满了
@@ -34,7 +33,6 @@ public class CircularQueue {
         tail = (tail+1)%n;
         return true;
     }
-
     //出队
     public String dequeue(){
         //如果head==tail表示队列为空
