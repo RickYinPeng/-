@@ -328,6 +328,11 @@ public  class SinglyLinkedList {
         }else{
             System.out.println("不是回文");
         }
+
+        String s = new String();
+
+
+
     }
 }
 
