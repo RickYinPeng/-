@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -21,7 +23,7 @@ public class Test {
             }
         }
         System.out.println(count);
-
-
+        ArrayList arrayList = new ArrayList();
+        HashMap hashMap = new HashMap();
     }
 }
