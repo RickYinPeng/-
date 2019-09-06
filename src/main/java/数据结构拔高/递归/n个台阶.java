@@ -16,7 +16,7 @@ public class n个台阶 {
         System.out.println(f);
 
     }
-    static HashMap<Integer,Integer> map = new HashMap<>();
+    static HashMap<Integer,Integer> map = new HashMap();
 
     public static int f(int n){
         if(n==1){
