@@ -17,7 +17,7 @@ public class Test {
 //
 //        String string = Integer.toBinaryString(x);
 //        char[] chars = string.toCharArray();
-//        int count = 0;
+//        int count = -0;
 //        for (char aChar : chars) {
 //            if(aChar=='1'){
 //                count++;
