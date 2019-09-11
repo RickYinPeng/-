@@ -12,6 +12,8 @@ public class Math {
     public static void main(String[] args) {
         /*Math math = new Math();
         math.math();*/
+        double b = 'a'; 
+
     }
     public int math(){
         int a = 1;
