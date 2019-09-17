@@ -12,6 +12,10 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
 
+        ThreadLocal threadLocal = new ThreadLocal();
+        threadLocal.get();
+
+
 //        Scanner sc = new Scanner(System.in);
 //        int x = sc.nextInt();
 //
@@ -47,6 +51,7 @@ public class Test {
         }
         return x;
     }
+
 
 
 }
