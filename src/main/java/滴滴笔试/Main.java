@@ -13,6 +13,7 @@ public class Main {
         for (int i = 0; i < n; i++) {
             attr[i] = sc.nextInt();
         }
+
 //        //区间最小和
 //        int min = 0;
 //        boolean flag = true;
